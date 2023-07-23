@@ -8,22 +8,23 @@ body{
     
 
 }
-.d1{font-family: Goudy Stout;
-    text-align: center;
-    height: ;
-    margin: ;
+.d1{font: oblique bold 130% Verdana;
+  text-align: center;
+  height: ;
+  margin: ;
+  
 
-      animation: animacionTexto 1s infinite;
+      animation: animacionTexto 5s infinite;
     }
     
     @keyframes animacionTexto {
       10% {
         transform: scale(1);
-        color: rgb(58, 20, 20);
+        color: rgb(70, 3, 3);
       }
       10% {
         transform: scale(0.99);
-        color: rgb(59, 65, 37);
+        color: rgb(74, 94, 2);
       }
       12% {
         transform: scale(1);
@@ -31,19 +32,23 @@ body{
       }
     }
     .d2  {animation: animacionTexto 6s infinite;}
+    .d2{font: oblique bold 200% Verdana;
+      text-align: center;
+      height: ;
+      margin: ;}
 
 @keyframes animacionTexto {
   10% {
-    transform: scale(1);
-    color: rgb(34, 14, 14);
+    transform: scale(1.2);
+    color: rgb(48, 53, 7);
   }
   10% {
-    transform: scale(0.99);
-    color: rgb(14, 17, 5);
+    transform: scale(1.1);
+    color: rgb(172, 0, 0);
   }
   12% {
-    transform: scale(1);
-    color: rgb(41, 18, 7);
+    transform: scale(1.0);
+    color: rgb(29, 10, 2);
   }
 }
 
@@ -146,6 +151,13 @@ body{
   .dino:hover {
     transform: scale(1.2); 
   }
+  
+  
+  
+  
+  
+  
+
   
   
   
