@@ -1,35 +1,45 @@
 
 body{
-    background-image: url(https://images3.alphacoders.com/665/thumb-1920-665574.jpg);
+    background-image: url(https://i0.wp.com/ecoosfera.com/wp-content/uploads/2022/11/CPUOZY6I3RGOXHNGVTNTXY3RAQ.jpg);
     opacity: ;
     background-repeat: no-repeat;
     background-size: cover;
     backdrop-filter: blur(3px);
     position: 
 }
-.d1{font-family: Goudy Stout;
-    text-align: center;
-    height: ;
-    margin: ;
-
+.d1{font: oblique bold 130% Verdana;
+  text-align: center;
+  height: ;
+  margin: ;
       animation: animacionTexto 10s infinite;
     }
     
     @keyframes animacionTexto {
       10% {
         transform: scale(1);
-        color: rgb(58, 20, 20);
+        color: rgb(31, 2, 2);
       }
       10% {
         transform: scale(0.99);
-        color: rgb(82, 82, 25);
+        color: rgb(32, 32, 3);
       }
       12% {
         transform: scale(1);
-        color: rgb(83, 26, 26);
+        color: rgb(54, 6, 6);
       }
     }
+    .d2  {animation: animacionTexto 6s infinite;}
+    .d2{font: oblique bold 200% Verdana;
+      text-align: center;
+      height: ;
+      margin: ;}
 
+      .dino :hover{
+        transform: scale(1.9) ;
+      }
+      .dino {
+        transition: transform 0.3s ease; /* Animación suave al aplicar el zoom */
+      }
 
   
   header {
@@ -110,9 +120,17 @@ body{
   }
   @media (min-width:400px)
   body{
-    ba
+    
+  }
+  .dino {
+    transition: transform 0.3s ease; /* Animación suave al aplicar el zoom */
+    box-shadow: 0px 0px 15px 15px ;
+    -webkit-box-shadow: 0px 0px 15px 15px ;
   }
   
+  .dino:hover {
+    transform: scale(1.2); 
+  }
 
   
 
